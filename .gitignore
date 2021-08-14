@@ -19,5 +19,35 @@
 *.tar.gz
 *.rar
 
+# Logs
+logs
+*.log
+npm-debug.log*
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+/target/
+
+# misc
+.DS_Store
+.byebug_history
+.yarnrc
+.generators
+.rspec
+*.iml
+.rakeTasks
+.scheduling-env
+cypress.env.json
+platform/schema.graphql
+
+# test output
+test-output
+
+#project files
+.classpath
+.project
+.settings/
+
+#class files
+bin
+
